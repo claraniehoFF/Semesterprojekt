@@ -4,6 +4,7 @@
 Das Projekt besteht aus einem Frontend und einem Backend. Im Grundverzeichnis des Projekts werden die folgenden Befehle ausgeführt, um die Komponenten zu starten. 
 Es ist wichtig zu beachten, dass zuerst das Backend geladen wird, da ansonsten kein Zugriff auf die Datenbank besteht:
 uv run uvicorn backend.main:app --reload
+
 uv run streamlit run frontend/app.py
 
 
